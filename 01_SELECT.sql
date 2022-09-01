@@ -1,5 +1,5 @@
 SELECT EMP_NAME  FROM  EMPLOYEE
-
+ 
 /*SELECT(DQL 또는 DML) :조회
 *
 * - 데이터를 조회(SELECT)하면 조건에 맞는 행동이 조회됨.
