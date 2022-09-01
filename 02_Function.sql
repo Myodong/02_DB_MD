@@ -30,7 +30,7 @@ FROM DUAL;
 SELECT INSTR('AABAACAABBAA','B', 5, 2) --10번째
 FROM DUAL;
 
--- EMPLOYEE 테이블에서 사원명, 이메일, 이메일 중 '@(at)' 위치 초회
+-- EMPLOYEE 테이블에서 사원명, 이메일, 이메일 중 '@(at)' 위치 조회
 SELECT EMP_NAME, EMAIL, INSTR(EMAIL,'@')
 FROM EMPLOYEE;
 
