@@ -264,11 +264,10 @@ FROM EMPLOYEE
 --JOIN JOB USING(JOB_CODE);
 NATURAL JOIN JOB;
 
---다시작성
-SELECT EMP_NAME, JOB_NAME
+SELECT EMP_NAME, DEPT_TITLE
 FROM EMPLOYEE
 NATURAL JOIN DEPARTMENT;
---> 잘못 조인하면 CROSS JOIN 나옴
+--> 잘못 조인하면 CROSS JOIN 결과 조회
 ---------------------------------------------------------------------------------------------------------------
 
 -- 7. 다중 조인
