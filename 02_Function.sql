@@ -159,7 +159,7 @@ FROM EMPLOYEE;
 
 
 
--- ADD_MONTHS(날짜 , 숫자) : 날짜에 숫자만큼의 개월 수를 더함.
+-- ADD_MONTHS(날짜 , 숫자) : 날짜에 숫자만큼의 개월 수를 더함. (음수도 가능)
 SELECT ADD_MONTHS(SYSDATE,4) FROM DUAL;
 SELECT ADD_MONTHS(SYSDATE,-1) FROM DUAL;
 
