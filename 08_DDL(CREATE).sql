@@ -409,7 +409,7 @@ VALUES(NULL, 'user01', 'pass01', '신사임당', '여', '010-9999-9999', 'sin123
 --참조할 테이블의 참조할 컬럼명이 생략이 되면, PRIMARY KEY로 설정된 컬럼이 자동 참조할 컬럼이 됨
 
 CREATE TABLE USER_GRADE(
-  GRADE_CODE NUMBER PRIMARY KEY,
+    NUMBER PRIMARY KEY,
   GRADE_NAME VARCHAR2(30) NOT NULL
 );
 
